@@ -33,6 +33,12 @@
   </nav>
 
 <div class="container">
+  <!--Each loop which checks flash messages. If there is one, show it as alert -->
+    <% flash.each do |key, value| %>
+      <%= content_tag :div, value, class: "alert alert-#{key}" %>
+    <%end %>
+    
+    <!--Content is loaded here in yield! -->
     <%= yield %>
 </div>
 
