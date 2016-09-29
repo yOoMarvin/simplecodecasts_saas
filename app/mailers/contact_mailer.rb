@@ -1,4 +1,4 @@
-class ContactMailer < ActionMailer::
+class ContactMailer < ActionMailer::Base
     
     default to: 'marvin.messenzehl@me.com'
     
