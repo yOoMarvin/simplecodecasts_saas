@@ -13,7 +13,7 @@ group :production do
    gem 'rails_12factor'
 end
 
-#Use SCSS for stylesheets
+#Use SCSS for stylesheet
 gem 'sass-rails', '4.0.3'
 
 #Use bootstrap library for styles
