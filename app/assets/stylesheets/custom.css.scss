@@ -4,7 +4,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-/*
+/* some stuff from previous version
 body {
     // Gradient from uigradients
     background: #16222A; 
@@ -12,3 +12,9 @@ body {
     background: linear-gradient(to left, #16222A , #3A6073); 
 }
 */
+
+.alert-notice{
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
