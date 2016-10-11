@@ -21,6 +21,6 @@ class ProfilesController < ApplicationController
     private
     def profile_params
         #whitelist params for database
-        params.require(:profile).permit(:first_name, :last_name, :job_title, :phone_number, :contact_mailer, :description)
+        params.require(:profile).permit(:first_name, :last_name, :job_title, :phone_number, :contact_email, :description)
     end
 end
